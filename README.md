@@ -20,7 +20,7 @@ graph TD;
     SaltStack-->Custom_Beacon;
     Custom_Beacon-->Salt_Reactor;
     SaltStack-->Salt_Agent;
-    Salt_Agent-->Salt_Beacon;
+    Mock_Server/Client-->Salt_Beacon;
     Salt_Beacon-->Salt_Reactor;
     Salt_Agent-->Mock_Server/Client;
 ```
