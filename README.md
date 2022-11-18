@@ -14,11 +14,14 @@ Use saltstack as the orchestrater for securty related tasks, monitoring, and ale
 
 ```mermaid
 graph TD;
+    Custom_Beacon-->Firewall;
     Salt_Reactor-->Grafana_Dashboard;
     SaltStack-->Salt_Reactor;
-    SaltStack-->Salt_Agent;
-    Salt_Agent-->Mock_Server/Client;
     SaltStack-->Custom_Beacon;
-    Custom_Beacon-->Firewall;
+    Custom_Beacon-->Salt_Reactor;
+    SaltStack-->Salt_Agent;
+    Salt_Agent-->Salt_Beacon;
+    Salt_Beacon-->Salt_Reactor;
+    Salt_Agent-->Mock_Server/Client;
 ```
  
