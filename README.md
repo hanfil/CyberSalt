@@ -6,7 +6,8 @@ Use saltstack as the orchestrater for securty related tasks, monitoring, and ale
 - Salt States:
   - MockServers with beacons (e.g. https://www.mock-server.com/)
     - Canaries
-  - Configurations
+  - Configurations:
+    - Sanbox _(Forensic Analysis)_
 - Custom Runner/Beacon:
   - Firewall Logging - _which will be used to supply better rules_
 
@@ -23,5 +24,6 @@ graph TD;
     Mock_Server/Client-->Salt_Beacon;
     Salt_Beacon-->Salt_Reactor;
     Salt_Agent-->Mock_Server/Client;
+    Salt_Agent-->Sandbox;
 ```
  
