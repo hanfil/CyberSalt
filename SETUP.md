@@ -6,4 +6,4 @@ Use this guide:
 https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/ubuntu.html
 
 # 2 - Install CyberSalt config
--
+
