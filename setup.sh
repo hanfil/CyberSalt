@@ -1,4 +1,4 @@
 #! /bin/bash
 
 mkdir /srv/salt
-cp states/* /srv/salt/
+cp -r states/cybersalt /srv/salt/
