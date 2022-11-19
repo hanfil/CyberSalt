@@ -20,6 +20,6 @@ git clone https://github.com/hanfil/CyberSalt.git
 cd CyberSalt
 
 ./setup.sh
-
 ```
 
+Every state is now under cybersalt. E.g. `salt '-' state.apply cybersalt.update``
