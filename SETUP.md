@@ -22,4 +22,4 @@ cd CyberSalt
 ./setup.sh
 ```
 
-Every state is now under cybersalt. E.g. `salt '-' state.apply cybersalt.update``
+Every state is now under cybersalt. E.g. `salt '-' state.apply cybersalt.update`
