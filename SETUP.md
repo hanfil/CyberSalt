@@ -16,4 +16,10 @@ Take note of the master hostname/fqdn.
 # 2 - Install CyberSalt config
 ```
 git clone https://github.com/hanfil/CyberSalt.git
+
+cd CyberSalt
+
+./setup.sh
+
 ```
+
